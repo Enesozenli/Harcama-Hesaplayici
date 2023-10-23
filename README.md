@@ -1,28 +1,11 @@
-# Harcama Hesaplayıcı
+<h1> Harcama Hesaplayıcı </h1>
 
+Harcamalarınızı yönetebileceğiniz bir hesaplayıcı
 
-# Yapılcaklar
+<h2> Kullanılan Teknolojiler </h2>
 
--Ekleme Özelliği:
--- Ekle butonuna tıklandığında inputların verilerine eriş
--- İnputlar boşsa uyarı ver
--- Boş değilse ekrana  harcama kartı bas
--- Ödendi tiklendiyse elemana 'paid' class'ı ekle
--- En son bütün inputları temizle
+JavaScript, HTML ve CSS kullanılarak geliştirilmiştir.
 
--Toplam Bilgisi:
--- Html'de bir toplam alanı js'de toplam değişkeni olıuştur
---Her harcama eklendiğine harcamanın fiyatını toplam değişkenşne ekle
---Harcam silindiğinde toplam'dan fiyatı çıkar
---Değişken her güncellendiğinde ekranı da güncelle
+<h2> Çalışır halinin ekran kaydı </h2>
 
-
--Silme | Güncelleme Özelliği:
---Listedeki bütün tıklanma olaylarını izle
---Tıklanan id "delete" ise elemanı kaldır ve toplamdan çıkar
---Tıklanan id "update" ise paid class'ına ekle veya çıkar
-
--Harcamaları Filtreleme:
---HTML'de select alanı oluştur
---Select'de değer her değiştiğinde seçilen bilgiyi al
---Seçilen değere göre filtreleme yap
+![](harcamaHesaplayici.gif)
